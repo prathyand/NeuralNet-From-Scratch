@@ -1,7 +1,6 @@
-## Problem 1: 
+## KNN from scratch: 
 
-### Problem statement:
-Our goal is to implement KNN classifier from scratch using Python Numpy library, and test the performance of the classifier with sklearn's Knn classifier for Iris and Digits dataset
+The goal is to implement KNN classifier from scratch using Python Numpy library, and test the performance of the classifier with sklearn's Knn classifier for Iris and Digits dataset
 
 ### Approach:
 We have to mainly implement the functions 'fit' and 'predict' for the given skeleton code of KNN classifier. KNN model training is very simple as KNN simply 'remembers' all the training examples. So the fit method simply stores the inputs X(features) and y(labels) to local class variables. 
@@ -16,10 +15,9 @@ Algorithm performs very well in terms of accuracy on both Iris as well as Digits
 
 --------------------------------------------------------------------------------------------
 
-## Problem 2: 
+## NN from scratch: 
 
-### Problem statement:
-Our goal is to implement a feedforward fully-connected multilayer perceptron classifier with one hidden layer from scratch, and compare it against SKlearns's MLPClassifier for Iris and Digits dataset
+The goal is to implement a feedforward fully-connected multilayer perceptron classifier with one hidden layer from scratch, and compare it against SKlearns's MLPClassifier for Iris and Digits dataset
 
 ### Approach:
 We have to implement different activation functions and cross entropy function before implementing the neural network fit and predict methods. Each of the activation functions also return a derivative based on an input parameter 'derivative' if is value is 'True'. 
